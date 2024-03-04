@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bhagavad Gita Sloka</title>
+</head>
+<body>
+    <div id="sloka-container" class="header">
+        <h1>Bhagavad Gita Sloka</h1>
+        <label for="chapter">Chapter:</label>
+        <input type="number" id="chapter" min="1" max="18" value="1">
+        <label for="verse">Verse:</label>
+        <input type="number" id="verse" min="1" value="1">
+        <p id="sloka"></p>
+        <p id="translation"></p>
+        <button onclick="fetchSloka()">Get Sloka</button>
+    </div>
+    <script src="./script.js"></script> 
+<script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
