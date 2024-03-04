@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://wallpapers.com/images/high/bhagavad-gita-kurukshetra-war-6mqhvc2vk2ab24l3.webp");
+    background-size: cover;
+    background-position: top; /* Adjust background position to top */
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Add opacity to the container background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Apply box shadow to the container */
+}
+
+.header {
+    text-align: center;
+}
+
+#sloka-container {
+    padding: 30px; /* Adjust padding for better spacing */
+    border-radius: 8px; /* Adjust border radius */
+    background-color: #f9f9f9; /* Change background color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Apply box shadow to the sloka container */
+}
+
+button {
+    background-color: #007bff; /* Change button background color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+}
